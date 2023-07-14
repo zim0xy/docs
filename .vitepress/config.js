@@ -1,20 +1,22 @@
 import { defineConfig } from 'vitepress'
 
-const sidebars = {
-  gettingStarted: {
-    text: 'Начало Работы',
-    collapsed: true,
-    items: [
-      { text: 'Вступление', link: '/getting-started/introduction' },
-    ],
-  },
-  Topic: {
-    text: 'Темы',
-    collapsed: true,
-     items: [
-      { text: 'OAuth2', link: '/topics/oauth2' },
-    ],
-  }
+function sidebarMain() {
+  return [
+    {
+      text: 'Начало Работы',
+      collapsed: false,
+      items: [
+        { text: 'Вступление', link: '/getting-started/introduction' }
+      ]
+    },
+    {
+      text: 'Темы',
+      collapsed: false,
+      items: [
+        { text: 'OAuth2', link: '/topics/oauth2' }
+      ]
+    }
+  ]
 }
 
 export default defineConfig({
@@ -86,9 +88,7 @@ export default defineConfig({
       prev: 'Предыдущая страница',
     },
     sidebar: {
-      '/': [
-        sidebars['gettingStarted','Topic'],
-      ],
+      '/': sidebarMain()
     },
     lastUpdatedText: 'Последнее обновление',
     outlineTitle: 'На этой странице'
