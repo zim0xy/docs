@@ -87,10 +87,10 @@ export default defineConfig({
     outlineTitle: 'На этой странице'
   },
   head: [
-    ['meta', { property: 'og:image', content: 'https://hono.dev/images/hono-title.png' }],
+    ['meta', { property: 'og:image', content: 'https://github.com/zim0xy/releases/blob/main/products/content/Thumbnail.png?raw=true' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'twitter:domain', content: 'hono.dev' }],
-    ['meta', { property: 'twitter:image', content: 'https://hono.dev/images/hono-title.png' }],
+    ['meta', { property: 'twitter:domain', content: 'docs.zimoxy.dev' }],
+    ['meta', { property: 'twitter:image', content: 'https://github.com/zim0xy/releases/blob/main/products/content/Thumbnail.png?raw=true' }],
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
   ],
