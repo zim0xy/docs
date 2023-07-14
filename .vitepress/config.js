@@ -25,6 +25,8 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    next: 'Следующая страница',
+    prev: 'Предыдущая страница',
     i18nRouting: true,
     logo: { 
         light: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-light-theme.svg',
