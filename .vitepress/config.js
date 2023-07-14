@@ -36,6 +36,7 @@ export default defineConfig({
   themeConfig: {
     sidebarMenuLabel: 'Меню',
     returnToTopLabel: 'Вернуться на вверх',
+    darkModeSwitchLabel: 'Изменение темы',
     docFooter: {
       next: 'Следующая страница',
       prev: 'Предыдущая страница',
@@ -105,5 +106,4 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#3366ff', id: 'metacolor'}]
   ],
   titleTemplate: 'Zimoxy | :title',
-  darkModeSwitchLabel: 'Изменение темы',
 })
