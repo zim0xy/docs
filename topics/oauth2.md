@@ -31,8 +31,9 @@ URL: /register
 | email        | String     | Электронная почта пользователя   |
 | ip           | String     | IP-адрес пользователя            |
 
-**Headers**
-```
-Authorization: secret_key
-```
+**Headers:**
+| Параметр       | Требуется   | Описание                         |
+| -------------- | ----------- | -------------------------------- |
+| Authorization  | secret_key  | Секретный ключ API               |
+
 :::
