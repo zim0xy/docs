@@ -34,8 +34,10 @@ export default defineConfig({
     },
   },
   themeConfig: {
-    next: 'Следующая страница',
-    prev: 'Предыдущая страница',
+    docFooter: {
+      next: 'Следующая страница',
+      prev: 'Предыдущая страница',
+    },
     i18nRouting: true,
     logo: { 
         light: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-light-theme.svg',
@@ -83,9 +85,7 @@ export default defineConfig({
     },
     footer: {
       message: 'Все права защищены.',
-      copyright: '© Zimoxy, Inc., 2023 г.',
-      next: 'Следующая страница',
-      prev: 'Предыдущая страница',
+      copyright: '© Zimoxy, Inc., 2023 г.'
     },
     sidebar: {
       '/': sidebarMain()
