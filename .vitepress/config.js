@@ -87,7 +87,7 @@ export default defineConfig({
     },
     sidebar: {
       '/': [
-        sidebars['gettingStarted'],
+        sidebars['gettingStarted','Topic'],
       ],
     },
     lastUpdatedText: 'Последнее обновление',
