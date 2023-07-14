@@ -100,6 +100,7 @@ export default defineConfig({
     ['meta', { property: 'twitter:image', content: 'https://github.com/zim0xy/releases/blob/main/products/content/Thumbnail.png?raw=true' }],
     ['meta', { property: 'twitter:card', content: 'summary_large_image' }],
     ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['meta', { name: 'theme-color', content: '#3366ff', id: 'metacolor'}]
   ],
   titleTemplate: 'Zimoxy | :title',
 })
