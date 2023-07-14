@@ -43,7 +43,6 @@ export default defineConfig({
         light: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-light-theme.svg',
         dark: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-dark-theme.svg',
     },
-    darkModeSwitchLabel: 'Изменение темы',
     siteTitle: false,
     search: {
       provider: 'local',
@@ -104,4 +103,6 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#3366ff', id: 'metacolor'}]
   ],
   titleTemplate: 'Zimoxy | :title',
+  darkModeSwitchLabel: 'Изменение темы',
+  returnToTopLabel: 'Вернуться на вверх',
 })
