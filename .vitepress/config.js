@@ -7,6 +7,13 @@ const sidebars = {
     items: [
       { text: 'Вступление', link: '/getting-started/introduction' },
     ],
+  },
+  Topic: {
+    text: 'Темы',
+    collapsed: true,
+     items: [
+      { text: 'OAuth2', link: '/topics/oauth2' },
+    ],
   }
 }
 
