@@ -12,7 +12,7 @@ app.all('*', (c) => {
   const match = rules.find((rule) => rule.from === path)
   if (match) path = match.to
 
-  const url = `https://hono.dev${path}`
+  const url = `https://docs.zimoxy.org${path}`
   return c.redirect(url, 301)
 })
 
