@@ -34,6 +34,8 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    sidebarMenuLabel: 'Меню',
+    returnToTopLabel: 'Вернуться на вверх',
     docFooter: {
       next: 'Следующая страница',
       prev: 'Предыдущая страница',
@@ -104,5 +106,4 @@ export default defineConfig({
   ],
   titleTemplate: 'Zimoxy | :title',
   darkModeSwitchLabel: 'Изменение темы',
-  returnToTopLabel: 'Вернуться на вверх',
 })
