@@ -43,6 +43,7 @@ export default defineConfig({
         light: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-light-theme.svg',
         dark: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-dark-theme.svg',
     },
+    darkModeSwitchLabel: 'Изменение темы',
     siteTitle: false,
     search: {
       provider: 'local',
