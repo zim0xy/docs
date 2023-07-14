@@ -31,10 +31,6 @@ export default defineConfig({
         dark: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-dark-theme.svg',
     },
     siteTitle: false,
-
-
-
-
     search: {
       provider: 'local',
       options: {
@@ -59,10 +55,6 @@ export default defineConfig({
         }
       }
     },
-
-
-
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zim0xy' },
       { icon: 'discord', link: 'https://discord.gg/PVBxgDwaJE' },
@@ -81,6 +73,8 @@ export default defineConfig({
     footer: {
       message: 'Все права защищены.',
       copyright: '© Zimoxy, Inc., 2023 г.',
+      next: 'Следующая страница',
+      prev: 'Предыдущая страница',
     },
     sidebar: {
       '/': [
