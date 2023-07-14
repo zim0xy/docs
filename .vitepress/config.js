@@ -28,9 +28,9 @@ export default defineConfig({
     logo: '/images/logo.png',
     siteTitle: 'Zimoxy',
     algolia: {
-      appId: '1GIFSU1REV',
-      apiKey: '6a9bb2036e456356e224ece74546ca14',
-      indexName: 'hono',
+      appId: 'TN1M5LRMHP',
+      apiKey: '12c9c0af125bbcc697f116e4eed5f818',
+      indexName: 'Zimoxy',
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zim0xy' },
