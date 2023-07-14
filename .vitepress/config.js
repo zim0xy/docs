@@ -11,7 +11,7 @@ const sidebars = {
 }
 
 export default defineConfig({
-  lang: 'ru_RU',
+  lang: 'ru-RU',
   title: 'Zimoxy',
   description:
     'Платформа для разработчиков Zimoxy это набор инструментов API и ресурсов прекрасно сочитаюшихся с приложениями, чтобы помочь вам создавать, интегрировать сервисы Zimoxy в ваше приложение.',
@@ -25,55 +25,33 @@ export default defineConfig({
     },
   },
   themeConfig: {
+    i18nRouting: true,
     logo: { 
         light: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-light-theme.svg',
         dark: 'https://raw.githubusercontent.com/zim0xy/releases/main/products/content/logo-in-dark-theme.svg',
     },
     siteTitle: false,
+
+
+
+
     search: {
-      provider: 'algolia',
+      provider: 'local',
       options: {
-        appId: 'TN1M5LRMHP',
-        apiKey: '12c9c0af125bbcc697f116e4eed5f818',
-        indexName: 'Zimoxy',
         locales: {
-          ru_RU: {
-            placeholder: "Поиск документов",
+          root: {
             translations: {
               button: {
-                buttonText: "Поиск документов",
-                buttonAriaLabel: "Поиск документов"
+                buttonText: 'Поиск',
+                buttonAriaLabel: 'Поиск'
               },
               modal: {
-                searchBox: {
-                  resetButtonTitle: "Очистить условия поиска",
-                  resetButtonAriaLabel: "Очистить условия поиска",
-                  cancelButtonText: "Отмена",
-                  cancelButtonAriaLabel: "Отмена"
-                },
-                startScreen: {
-                  recentSearchesTitle: "История поиска",
-                  noRecentSearchesText: "Нет истории поиска",
-                  saveRecentSearchButtonTitle: "Сохранить в истории поиска",
-                  removeRecentSearchButtonTitle: "Удалить из истории поиска",
-                  favoriteSearchesTitle: "Избранное",
-                  removeFavoriteSearchButtonTitle: "Удалить из избранного"
-                },
-                errorScreen: {
-                  titleText: "Не удалось получить результаты",
-                  helpText: "Возможно, вам следует проверить подключение к сети"
-                },
+                noResultsText: 'Ничего не найдено.',
+                resetButtonTitle: 'четкие критерии запроса',
                 footer: {
-                  selectText: "Выбрать",
-                  navigateText: "Переключить",
-                  closeText: "Закрыть",
-                  searchByText: "Провайдер поиска"
-                },
-                noResultsScreen: {
-                  noResultsText: "Не удалось найти соответствующие результаты",
-                  suggestedQueryText: "Вы можете попробовать следующий запрос",
-                  reportMissingResultsText: "Вы считаете, что должны быть результаты для этого запроса?",
-                  reportMissingResultsLinkText: "Нажмите для обратной связи"
+                  selectText: 'что-бы выбрать',
+                  navigateText: 'что-бы переключать',
+                  closeText: 'что-бы закрыть'
                 }
               }
             }
@@ -81,6 +59,10 @@ export default defineConfig({
         }
       }
     },
+
+
+
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/zim0xy' },
       { icon: 'discord', link: 'https://discord.gg/PVBxgDwaJE' },
@@ -97,14 +79,16 @@ export default defineConfig({
       text: 'Изменить эту страницу на GitHub',
     },
     footer: {
-      message: 'Выпущено под лицензией MIT.',
-      copyright: 'Copyright © 2023-present Zimoxy, Inc.',
+      message: 'Все права защищены.',
+      copyright: '© Zimoxy, Inc., 2023 г.',
     },
     sidebar: {
       '/': [
         sidebars['gettingStarted'],
       ],
     },
+    lastUpdatedText: 'Последнее обновление',
+    outlineTitle: 'На этой странице'
   },
   head: [
     ['meta', { property: 'og:image', content: 'https://hono.dev/images/hono-title.png' }],
