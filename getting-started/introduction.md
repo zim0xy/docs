@@ -1,5 +1,5 @@
 ---
-title: Zimoxy | Начало работы
+title: Начало работы
 description: 'Zimoxy API основан на двух основных уровнях: HTTPS/REST API'
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Zimoxy Devs
+title: Главная
 ---
 
 # Платформа Разработчиков Zimoxy
