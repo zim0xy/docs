@@ -2,7 +2,7 @@
 description: "OAuth2 позволяет разработчикам приложений создавать приложения, использующие аутентификацию и данные из Zimoxy API."
 ---
 
-# OAuth2 <Badge type="warning" text="experimental" />
+# OAuth2 <Badge type="warning" text="БЕТА-ВЕРСИЯ" />
 
 ## Общие ресурсы
 
