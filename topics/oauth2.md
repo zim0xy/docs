@@ -37,25 +37,30 @@ URL: /register
 | Authorization  | secret_key  | Секретный ключ API               |
 
 **Отклик:**
-::: code-group
-
-```json [200: OK]
+::: tip 200: OK
+```json
 {'msg': 'Пользователь зарегистрирован', 'status': True}
 ```
+:::
 
-```json [302: Found]
+::: warning 302: Found
+```json
 {'msg': 'Пользователь уже существует.', 'status': False}
 ```
+:::
 
-```json [403: Forbidden]
+::: danger 403: Forbidden
+```json
 {'msg': 'Доступ запрещен.', 'status': False}
 ```
+:::
 
-```json [423: Locked]
+::: danger 423: Locked
+```json
 {'msg': 'Пользователь заблокирован.', 'status': False}
 ```
-
 :::
+
 
 **Примечания:**
 - В случае, если пользователь уже существует при регистрации, возвращается код ответа 302 и сообщение об ошибке.
